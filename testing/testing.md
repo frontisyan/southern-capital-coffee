@@ -4,48 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Southern Capital Coffee - Тестирование и Обратная связь (КТ5)</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #000000;
-      color: #ffffff;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px;
-      line-height: 1.6;
-    }
-    h1, h2, h3 {
-      color: #ffcc00;
-    }
-    h1 {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    h2 {
-      border-bottom: 2px solid #ffcc00;
-      padding-bottom: 5px;
-      margin-top: 30px;
-    }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-    table, th, td {
-      border: 1px solid #ffffff;
-    }
-    th, td {
-      padding: 10px;
-      text-align: left;
-    }
-    .feedback {
-      background-color: #1a1a1a;
-      padding: 15px;
-      border-radius: 5px;
-      margin-bottom: 20px;
-    }
-  </style>
 </head>
 <body>
 
