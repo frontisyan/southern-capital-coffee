@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Инфографика — Результаты опроса</title>
+<style>
+body {
+  background:#000;
+  color:#fff;
+  font-family: Arial, sans-serif;
+  max-width:900px;
+  margin:0 auto;
+  padding:40px;
+  line-height:1.7;
+}
+h1 {
+  text-align:center;
+  color:#ffcc00;
+  margin-bottom:40px;
+}
+
+/* ПИРОГ */
+.chart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:40px;
+}
+
+.pie-chart {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #ffcc00 0% 32%,      /* Довольны 32% */
+    #ffaa00 32% 64%,     /* Скорость 32% */
+    #ff6600 64% 85%,     /* Дизайн 21% */
+    #ffffff 85% 100%     /* Нужно улучшить 15% */
+  );
+  border: 4px solid #fff;
+}
+
+/* Легенда */
+.legend {
+  margin-left:40px;
+}
+.legend div {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.legend span {
+  width:18px;
+  height:18px;
+  border-radius:4px;
+  display:inline-block;
+  margin-right:10px;
+}
+</style>
+</head>
+<body>
+
+<h1>Результаты пользовательского опроса</h1>
+
+<p>После тестирования приложения пользователи оценили разные аспекты кофейного сервиса.  
+Диаграмма ниже визуально отображает распределение ответов респондентов.</p>
+
+<div class="chart-container">
+  <div class="pie-chart"></div>
+
+  <div class="legend">
+    <div><span style="background:#ffcc00;"></span>Общее удовлетворение — <b>32%</b></div>
+    <div><span style="background:#ffaa00;"></span>Скорость обслуживания — <b>32%</b></div>
+    <div><span style="background:#ff6600;"></span>Дизайн и атмосфера — <b>21%</b></div>
+    <div><span style="background:#ffffff;"></span>Проблемы и ожидания — <b>15%</b></div>
+  </div>
+</div>
+
+<p style="margin-top:40px;">
+<b>Вывод:</b> Большинство гостей остались удовлетворены скоростью и общим качеством сервиса.  
+Однако 15% пользователей отметили, что процесс оформления заказа можно сделать проще.
+</p>
+
+</body>
+</html>
